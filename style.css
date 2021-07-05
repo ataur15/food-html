@@ -1,0 +1,166 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    padding: 18px 40px;
+    background-image: linear-gradient(45deg, #fc9149, #fd4e31);
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 40px;
+    color: #fff;
+    display: inline-block;
+    box-shadow: 0px 2px 18px #feb179;
+}
+
+.hero-section {
+    padding: 60px 0;
+}
+
+.common-width {
+    width: 1100px;
+    margin:0 auto;
+}
+
+.parent-div {
+    display: flex;
+}
+
+.hero-child-left {
+    width: 50%;
+    padding: 145px 0;
+}
+
+.hero-child-left h1 {
+    font-size: 50px;
+    color: #575757;
+    line-height: 60px;
+    margin: 0;
+}
+
+.hero-child-left span {
+    color: #fb954b;
+}
+
+.hero-child-left p {
+    color: #878787;
+    font-size: 16px;
+    margin: 30px 0 35px;
+}
+
+.hero-child-right {
+    width: 50%;
+}
+
+.hero-child-right img{
+    width: 500px;
+    float: right;
+}
+
+.about-section {
+    background-image: url('images/bg1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.about-child-left {
+    width: 50%;
+    padding: 66px 0 0 0;
+}
+
+.about-child-left img {
+    width: 280px;
+}
+
+.about-child-right {
+    padding: 100px 0;
+    width: 50%;
+}
+
+.about-child-right h3 {
+    font-size: 32px;
+    color: #757474;
+}
+
+.about-child-right p {
+    margin: 0 0 70px 0;
+    color: #5f5f5f;
+}
+
+.recipe-section {
+    padding: 60px 0 100px;
+}
+
+.recipe-section h3 {
+    font-size: 32px;
+    margin: 0 0 10px;
+    color: #757474;
+    text-align: center;
+}
+
+.recipe-section .sub-heading {
+    width: 580px;
+    margin: 0px auto 40px;
+    color: #5f5f5f;
+    text-align: center;
+}
+
+.recipe-child {
+    width: 33%;
+    padding: 15px 20px;
+    margin: 0 24px;
+    border-radius: 27px;
+    box-shadow: 0px 4px 20px #e1e1e1;
+}
+
+.recipe-child p {
+    color: #616161;
+}
+
+.counter-section {
+    padding: 50px 100px;
+    border-radius: 27px;
+    box-shadow: 0px 0px 20px #e1e1e1;
+    margin: 0 0 80px 0;
+}
+
+.counter {
+    width: 33%;
+    text-align: center;
+}
+
+.counter p {
+    margin: 0;
+}
+
+.counter h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.footer-section {
+    background: #000;
+    padding: 40px 0;
+}
+
+.footer-section h2 {
+    font-size: 35px;
+    text-align: center;
+    color: #6a6969;
+    margin: 0;
+}
+
+.footer-section span {
+    color: #ff984d;
+}
+
+.footer-section p {
+    color: #c0c0c0;
+    text-align: center;
+}
